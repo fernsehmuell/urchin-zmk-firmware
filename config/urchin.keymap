@@ -73,12 +73,11 @@
 			key-positions = <30 31>;
 			bindings = <&mo SETTINGS>;
 		};
-		// left index & middle fingers (home-row)
-		// hold control & space for Adobe workflow
-		combo_ctrl_space {
+		// right M+N = backspace
+		combo_backspace {
 			timeout-ms = <200>;
-			key-positions = <12 13>;
-			bindings = <&kp LC(SPACE)>;
+			key-positions = <15 16>;
+			bindings = <&kp BACKSPACE>;
 			layers = <BASE>;
 		};
 	};
